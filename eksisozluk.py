@@ -4,7 +4,7 @@ from selenium import webdriver
 import random
 import time
 
-browser = webdriver.Chrome("/Users/aydinvardar/PycharmProjects/eksisozluk/venv/bin/chromedriver")
+browser = webdriver.Chrome("venv/bin/chromedriver")
 url = "https://eksisozluk.com/mustafa-kemal-ataturk--34712?p="
 pageCount = 1
 entries = []
